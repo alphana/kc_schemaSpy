@@ -14,7 +14,7 @@ We use Makefile for all for the invocation
 
 All projects' Makefiles should provide the following commands, if applicable:
 
-### `make sniff`
+### `sniff`
 
 See `make sniff [args]` run the application to create output
 
@@ -29,9 +29,9 @@ DB_PORT=5432
 DB_SCHEMA=public
 OUTPUT_FOLDER=output
 ```
-### `make spinup.docker`
+### `spinup.docker`
 Spinup a 'KC' instance with a 'Postgres' configuration
 
 ```Makefile
-export LC_CTYPE=en_GB.UTF-8
+make spinup.docker
 ```
